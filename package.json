@@ -1,7 +1,7 @@
 {
-  "name": "npm-library",
+  "name": "str-to-cc",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm library that it converts dash/underscore delimited words into camel casing.(known as Upper Camel Case, also often referred to as Pascal case).",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -12,9 +12,12 @@
   },
   "keywords": [],
   "author": "hadiah almalki <almalkihadiah@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hadiahmalki/npm-library/issues"
   },
-  "homepage": "https://github.com/hadiahmalki/npm-library#readme"
+  "homepage": "https://github.com/hadiahmalki/npm-library#readme",
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
 }

@@ -1,3 +1,4 @@
-# npm-library 
+# str-to-cc
 
-npm library that it converts dash/underscore delimited words into camel casing.(known as Upper Camel Case, also often referred to as Pascal case).
+A npm library that converts dash/underscore text into camel casing.(known as Upper Camel Case, also often referred to as Pascal case).
+
