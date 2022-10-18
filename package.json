@@ -1,0 +1,20 @@
+{
+  "name": "npm-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadiahmalki/npm-library.git"
+  },
+  "keywords": [],
+  "author": "hadiah almalki <almalkihadiah@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadiahmalki/npm-library/issues"
+  },
+  "homepage": "https://github.com/hadiahmalki/npm-library#readme"
+}
