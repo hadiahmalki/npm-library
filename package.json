@@ -4,8 +4,9 @@
   "description": "npm library that it converts dash/underscore delimited words into camel casing.(known as Upper Camel Case, also often referred to as Pascal case).",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
-    //"test: coveralls": "jest --coverage && coveralls < coverage/lcov.info"
+    "test": "jest",
+    "test:coveralls": "jest --coverage && coveralls < coverage/lcov.info",
+    "test-coverage": "jest --collect-coverage --testEnvironment=node --forceExit --maxWorkers=1"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/hadiahmalki/npm-library#readme",
   "devDependencies": {
+    "coveralls": "^3.1.1",
     "eslint": "^8.25.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",

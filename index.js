@@ -1,6 +1,10 @@
 function toCamelCase(str) {
     let strArray;
 
+    if (typeof (str) !== 'string') {
+        throw new Error('parameter should be string')
+    }
+
     if (str === "") {
         return "";
     }

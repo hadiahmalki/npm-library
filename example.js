@@ -1,4 +1,4 @@
 const toCamelCase = require('./index')
 
-const result = toCamelCase('buy-travel-plan-item')
+const result = toCamelCase(27)
 console.log(result)
