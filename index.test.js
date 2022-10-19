@@ -1,10 +1,10 @@
 const toCamelCase = require('./index')
 
 
-it("should convert string into camelCasing", () => {
-    test('convert-to-camel-casing should return ConvertToCamelCasing', () => {
-        const actualOutput = toCamelCase('convert-to-camel-casing')
-        const expectedOutput = convertToCamelCasing
+describe("should convert string into camelCasing", () => {
+    test('buy-travel-plan-item should return buyTravelPlanItem', () => {
+        const actualOutput = toCamelCase('buy-travel-plan-item', 'buy--travel-plan-item', 'buy - travel- plan  -item ')
+        const expectedOutput = 'buyTravelPlanItem'
         expect(actualOutput).toBe(expectedOutput);
     });
 });
