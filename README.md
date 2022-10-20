@@ -2,6 +2,20 @@
 
 A npm library that converts dash/underscore text into camel casing.(known as Upper Camel Case, also often referred to as Pascal case).
 
+## Installation
+Install str--to--cc locally via npm:
+
+``` bash
+npm install str-to-cc
+```
+### Usage 
+Import it in a file and call the function
+
+#### Example 
+``` example 
+console.log(toCamelCase(sum-of-numbers-in-array))
+// sumOfNumbersInArray
+```
 
 MIT License
 
